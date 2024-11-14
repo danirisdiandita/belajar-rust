@@ -1,6 +1,6 @@
 fn main() {
-    let x = 5; 
-    println!("The value of x is: {}", x);
-    x = 6;
-    println!("The value of x is: {}", x);
+    let spaces = "    "; // string with 4 spaces
+    let spaces = spaces.len(); // get the length of the string
+
+    println!("The number of spaces is: {spaces}");
 }
